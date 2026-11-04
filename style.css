@@ -1,3 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #172b4d;
+    color: white;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.evenements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px 20px;
+}
+
+.carte {
+    background-color: rgba(255, 217, 0, 0.096) ;
+    width: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: transform 0.3s;
+}
+
+.carte:hover {
+    transform: translateY(-8px);
+}
+
+.carte img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contenu {
+    padding: 20px;
+}
+
+.contenu h2 {
+    color: #172b4d;
+    margin-bottom: 12px;
+}
+
+.date {
+    color: #e67e22;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contenu p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.description {
+    margin-top: 15px;
+    color: #666;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #172b4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 html {
 	width: 100vw;
 	height: 100vh;
