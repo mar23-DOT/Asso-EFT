@@ -36,8 +36,9 @@ header p {
 }
 
 .carte {
-    background-color: rgba(255, 217, 0, 0.096) ;
-    width: 320px;
+    background-color: rgba(255, 217, 0, 0.096);
+    width: 100%;
+	max-width: 450px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
