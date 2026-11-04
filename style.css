@@ -88,4 +88,111 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+html {
+	width: 100vw;
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: aliceblue;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #111;
+}
+
+
+div.imagesenhaut {
+	display: flex;
+	justify-content: center;
+	background: white;
+	height: 150px;
+}
+
+div.imagedumilieu {
+	display: flex;
+	justify-content: center;
+	padding: 0px 50px;
+	margin-top: 100px;
+}
+
+div.imagedumilieu {
+	height: 400px;
+}
+
+nav {
+	display: flex;
+	gap: 30px;
+	padding: 0px 20px;
+	height: 40px;
+	justify-content: center;
+	background-color: gold;
+	align-items: center;
+}
+
+nav a {
+	color: rgb(25, 25, 99);
+	font-weight: 600;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.hero .fond {
+	position: absolute;
+}
+
+.hero .fond h1 {
+	font-size: 21rem;
+	color: rgb(25, 25, 99);
+	opacity: 0.2;
+}
+
+.hero h1 {
+	font-size: 2.3rem;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 10;
+}
+
+.hero .boutons {
+	display: flex;
+	gap: 20px;
+	position: relative;
+	z-index: 10;
+}
+
+.hero .boutons a {
+	background-color: gold;
+	font-size: 1rem;
+	color: #111;
+	padding: 10px 15px;
+	border-radius: 999px;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.presentation {
+	display: flex;
+	justify-content: center;
+	padding: 0px 30px;
+	margin: 50px 0px;
+	margin-bottom: 100px;
+}
+
+.presentation p {
+	max-width: 1000px;
+	letter-spacing: 1px;
+	line-height: 1.3;
 }
